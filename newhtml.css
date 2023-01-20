@@ -1,0 +1,733 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+  }
+  .button {
+    background-color: rgb(18, 214, 0);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 24px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button1 {
+    background-color: rgb(8, 8, 8);
+    border: none;
+    color: rgb(248, 240, 240);
+    padding: 13px 49px;
+    text-align: center;
+    /* text-size-adjust: auto; */
+    text-decoration: none;
+    margin: 47px 96px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button:hover {
+    background-color: #070202;
+  }  
+  .image{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: -61px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+} /* if you want it vertically middle of the navbar. */
+
+ body{
+    font-family: montserrat;
+    background-color: #2c3e50;
+  }
+  nav{
+    background: #dcdddf;
+    height: 80px;
+    width: 100%;
+    border-bottom: 3px solid transparent;
+  }
+  label.logo{
+    color: rgb(3, 3, 3);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 230px;
+    margin-top: 2px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+    
+  }
+  nav ul li a{
+    color: rgb(15, 7, 7);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  nav  button{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+    border-bottom: 3px solid red;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .big_image{
+    height: 78vh;
+    width: 78vh;
+    transition: transform 0.3s;
+    vertical-align: middle;
+    float: right;
+    border-radius: 27rem 11rem 9rem 28rem;;
+    margin-top: -1px;
+    margin-right: -265px;
+    animation: fadeIn 5s;
+    border: 63px;
+    
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-color: rgb(214, 202, 202);
+  }
+  .content1{
+  
+    color: rgb(10, 10, 8);
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    font-size: 80px;
+    float: left;
+    margin-left: -500px;
+    /* margin-right: 7px; */
+    margin-top: 203px;
+  }
+  .small_content{
+  
+    color: rgb(133, 209, 123);
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    font-size: 20px;
+    float: left;
+    margin-left: -105px;
+    /* margin-right: 7px; */
+    margin-top: 174px;
+  }
+  .content2{
+  
+    color: rgb(168, 168, 9);
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    font-size: 80px;
+    
+    margin-top: 297px;
+    float: left;
+    margin-left: -67px;
+    /* margin-right: 7px; */
+   
+
+  }
+  .quote{
+  
+    color: rgb(40 40 38);
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    font-size: 18px;
+    margin-top: 482px;
+    float: left;
+    margin-left: -665px;
+    /* margin-right: 7px; */
+
+   
+
+  }
+  .button2{
+    background-color: rgb(247, 245, 245);
+    border: none;
+    color: rgb(5, 5, 5);
+    padding: 13px 49px;
+    text-align: center;
+    margin-left: 10px;
+    /* text-size-adjust: auto; */
+    text-decoration: none;
+    /* margin: 47px 96px; */
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .socialmedia{
+    display: flex;
+    margin-left: 20px;
+    
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+   .image_div
+   {
+    transition: transform 0.3s;
+    float:right;
+    size: 20px;
+   }
+ 
+  .image_section{
+    background-color: rgb(251 241 224);
+  }
+  .searchbar{
+    float: right;
+   
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    margin-top: 25px;
+    
+    margin-right: 25px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+
+
+  @media screen and (max-width: 1557px){
+    .button {
+      background-color: rgb(18, 214, 0);
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      float: right;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 24px 20px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .button1 {
+      background-color: rgb(8, 8, 8);
+      border: none;
+      color: rgb(248, 240, 240);
+      padding: 13px 49px;
+      text-align: center;
+      /* text-size-adjust: auto; */
+      text-decoration: none;
+      margin: 98px 98px;
+      cursor: pointer;
+      border-radius: 16px;
+    }
+    .button:hover {
+      background-color: #070202;
+    }  
+    .image{
+      display: inline-block;
+      vertical-align: top;
+      width: 50px;
+      height: 50px;
+      margin-right: -61px;
+      margin-left: 50px;
+      margin-top: 15px;
+      border-radius: 50%;
+  } /* if you want it vertically middle of the navbar. */
+  
+   body{
+      font-family: montserrat;
+      background-color: #2c3e50;
+    }
+    nav{
+      background: #dcdddf;
+      height: 80px;
+      width: 100%;
+    }
+    label.logo{
+      color: rgb(3, 3, 3);
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+    }
+    nav ul{
+      float: right;
+      margin-right: 102px;
+      margin-top: -73px;
+    }
+    nav ul li{
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+      
+    }
+    nav ul li a{
+      color: rgb(15, 7, 7);
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    nav  button{
+      color: white;
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    
+    a.active,a:hover{
+      background: #1b9bff;
+      transition: .5s;
+    }
+    .checkbtn{
+      font-size: 30px;
+      color: white;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+    }
+    #check{
+      display: none;
+    }
+    .big_image{
+      height: 75vh;
+      width: 73vh;
+      transition: transform 0.3s;
+      vertical-align: middle;
+      float: right;
+      border-radius: 27rem 11rem 9rem 28rem;
+      margin-top: -1px;
+      margin-right: 15px;
+      animation: fadeIn 5s;
+      border: 63px;
+      border-bottom-style: solid;
+      border-left-style: solid;
+      border-top-style: solid;
+      border-color: rgb(214, 202, 202);
+    }
+    .content1{
+    
+      color: rgb(31, 18, 223);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 60;
+      float: left;
+      margin-left: -246px;
+      /* margin-right: 7px; */
+      margin-top: 203px;
+    }
+    .small_content{
+    
+      color: rgb(211, 26, 51);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 10px;
+      float: left;
+      margin-left: -21px;
+      /* margin-right: 7px; */
+      margin-top: 174px;
+    }
+    .content2{
+    
+      color: rgb(168, 168, 9);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 60px;
+      margin-top: 311px;
+      float: left;
+      margin-left: 23px;
+     
+     
+  
+    }
+    .quote{
+    
+      color: rgb(40 40 38);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 15px;
+      margin-top: 416px;
+      float: left;
+      margin-left: -593px;
+  
+     
+  
+    }
+    .button2{
+      background-color: rgb(247, 245, 245);
+      border: none;
+      color: rgb(5, 5, 5);
+      padding: 13px 49px;
+      text-align: center;
+      margin-left: 19px;
+      /* text-size-adjust: auto; */
+      text-decoration: none;
+      /* margin: 47px 96px; */
+      margin-top: 60px;
+      cursor: pointer;
+      border-radius: 16px;
+    }
+    .socialmedia{
+      display: flex;
+      margin-left: 20px;
+      
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+     .image_div
+     {
+      transition: transform 0.3s;
+      float:right;
+      size: 20px;
+     }
+   
+    .image_section{
+      background-color: rgb(251 241 224);
+    }
+    .searchbar{
+      float: right;
+     
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      margin-top: 25px;
+      
+      margin-right: 25px;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+  }
+  @media screen and (max-width: 390px){
+    .button {
+      background-color: rgb(18, 214, 0);
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      float: right;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 3px -60px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .button1 {
+      background-color: rgb(8, 8, 8);
+      border: none;
+      color: rgb(248, 240, 240);
+      padding: 13px 49px;
+      text-align: center;
+      /* text-size-adjust: auto; */
+      text-decoration: none;
+      margin: 98px 98px;
+      cursor: pointer;
+      border-radius: 16px;
+    }
+    .button:hover {
+      background-color: #c41f1f;
+    }  
+    .image{
+     
+          display: inline-block;
+          vertical-align: top;
+          width: 50px;
+          height: 50px;
+          margin-right: -61px;
+          margin-left: 6px;
+          margin-top: 15px;
+          border-radius: 50%;
+      
+  } /* if you want it vertically middle of the navbar. */
+  
+   body{
+      font-family: montserrat;
+      background-color: #2c3e50;
+    }
+    nav{
+      background: #dcdddf;
+      height: 100px;
+      width: 100%;
+    }
+    label.logo{
+      color: rgb(3, 3, 3);
+      font-size: 20px;
+      font-weight: bold;
+      margin-left:-31px;
+    }
+    nav ul{
+      float: right;
+      margin-right: 102px;
+      margin-top: -73px;
+    }
+    nav ul li{
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+      
+    }
+    nav ul li a{
+      color: rgb(15, 7, 7);
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    nav  button{
+      color: white;
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    
+    a.active,a:hover{
+      background: #1b9bff;
+      transition: .5s;
+    }
+    .checkbtn{
+      font-size: 30px;
+      color: white;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+    }
+    #check{
+      display: none;
+    }
+    .big_image{
+      height: 30vh;
+      width: 30vh;
+      transition: transform 0.3s;
+      vertical-align: middle;
+      float: right;
+      border-radius: 50%;
+      margin-top: -569px;
+      margin-right: 86px;
+      animation: fadeIn 5s;
+      border: 63px;
+      /* border-bottom-style: solid; */
+      /* border-left-style: solid; */
+      /* border-top-style: solid; */
+      border-color: rgb(214, 202, 202);
+    }
+    .content1{
+    
+      color: rgb(31, 18, 223);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 60;
+      float: left;
+      margin-left: -246px;
+      /* margin-right: 7px; */
+      margin-top: 203px;
+    }
+    .small_content{
+    
+      color: rgb(211, 26, 51);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 10px;
+      float: left;
+      margin-left: -21px;
+      /* margin-right: 7px; */
+      margin-top: 174px;
+    }
+    .content2{
+    
+      color: rgb(168, 168, 9);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 60px;
+      margin-top: 311px;
+      float: left;
+      margin-left: 23px;
+     
+     
+  
+    }
+    .quote{
+    
+      color: rgb(40 40 38);
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      font-size: 15px;
+      margin-top: 416px;
+      float: left;
+      margin-left: -593px;
+  
+     
+  
+    }
+    .button2{
+      background-color: rgb(247, 245, 245);
+      border: none;
+      color: rgb(5, 5, 5);
+      padding: 13px 49px;
+      text-align: center;
+      margin-left: 19px;
+      /* text-size-adjust: auto; */
+      text-decoration: none;
+      /* margin: 47px 96px; */
+      margin-top: 60px;
+      cursor: pointer;
+      border-radius: 16px;
+    }
+    .socialmedia{
+      display: flex;
+      margin-left: 20px;
+      
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+     .image_div
+     {
+      transition: transform 0.3s;
+      float:right;
+      size: 20px;
+     }
+   
+    .image_section{
+      background-color: rgb(251 241 224);
+    }
+    .searchbar{
+      float: right;
+     
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      margin-top: 55px;
+      
+      margin-right: 25px;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 83px;
+    top: 0;
+    left: 0;
+    background-color: #dcdddf;
+    border-color: #070202;
+    overflow-x: hidden;
+    padding-top: 21px;
+    border-top: 4px solid rgb(207, 26, 26);
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
